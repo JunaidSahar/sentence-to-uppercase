@@ -2,13 +2,9 @@ import React from "react";
 
 export default function Editor() {
   return (
-    <div
-      className="hero min-h-screen"
-      style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}
-    >
-      <div className="bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
+    <div className="h-screen">
+      <div className="hero-content text-center text-neutral-content flex justify-center item-center h-full">
+        <div className="max-w-md mx-auto h-full">
           <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
           <p className="mb-5">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
